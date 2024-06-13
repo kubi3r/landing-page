@@ -132,3 +132,35 @@ img {
     font-weight: 800;
     font-size: 24px;
 }
+
+.call-to-action {
+    padding: 100px 300px;
+}
+
+.call-content {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 50px 100px;
+    display: flex;
+}
+
+.call-text {
+    color: white;
+}
+
+.call-header {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.call-content button {
+    padding: 0;
+    margin-left: auto;
+    border: 2px solid white;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 800;
+    width: 125px;
+}
