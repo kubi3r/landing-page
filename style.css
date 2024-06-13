@@ -9,7 +9,7 @@ body {
     display: flex;
     background-color: #1F2937;
     color: white;
-    padding: 8px 400px;
+    padding: 16px 400px;
 }
 
 .header-logo {
@@ -44,6 +44,10 @@ img {
     padding: 75px 400px;
     display: flex;
     gap: 128px;
+}
+
+.content .img {
+    margin-left: auto;
 }
 
 .main-text {
