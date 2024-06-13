@@ -9,13 +9,14 @@ body {
     display: flex;
     background-color: #1F2937;
     color: white;
-    padding: 8px 300px;
+    padding: 8px 400px;
 }
 
 .header-logo {
     margin-right: auto;
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 ul {
@@ -30,4 +31,39 @@ ul {
     font-size: 18px;
     color: #E5E7EB;
     gap: 16px;
+}
+
+img {
+    width: auto;
+    height: 300px;
+}
+
+.content {
+    background-color: #1F2937;
+    color: white;
+    padding: 75px 400px;
+    display: flex;
+    
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+}
+
+.sign-up {
+    border: 0;
+    font-weight: bold;
+    color: white;
+    width: 100px;
+    height: 30px;
+    background-color: #3882F6;
+    border-radius: 8px;
 }
